@@ -13,8 +13,10 @@ I am not the author of 'YaHei consoles Hybrid', but a simple user. Personal favo
 TTF 字体关联文件下载
 
 ```
-	$ git clone 
+	$ git clone https://github.com/TheNightIsYoung/Git-Setting.git
 ```
+
+`YaHei-Consolas-Hybrid-1.12` 即为字体包文件目录。
 
 **Step 2 >>> TTF Setup**
 
@@ -33,8 +35,10 @@ TTF 字体关联文件下载
 **Step 1 >>> Download 'YaHei Consolas Hybrid' TTF**
 
 ```
-	$ git clone https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12
+	$ git clone https://github.com/TheNightIsYoung/Git-Setting.git
 ```
+
+`YaHei-Consolas-Hybrid-1.12` 即为字体包文件目录。
 
 **Step 2 >>> 创建字体存放目录**
 
