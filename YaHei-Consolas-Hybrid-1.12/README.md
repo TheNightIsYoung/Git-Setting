@@ -24,11 +24,23 @@ TTF 字体关联文件下载
 
 字体安装成功后，直接关闭安装窗口即可。
 
-**Step 3 >>> Check Setup**
+**Step 3 >>> 安装检查**
 
 系统盘符下在字体目录（C:\Windows\Fonts）中查找 `YaHei Consolas Hybrid`，可以发现字体已经成功安装到字体目录中。
 
 这时，你会发现：你已经可以在 Office 或者 IDE 中使用它了。
+
+**Step 4 >>> 注册表配置**
+
+通过 注册表配置 来将字体应用于控制台：
+
+```
+# Win+R 输入 regedit 命令打开注册表。
+
+# 在 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Console\TrueTypeFont] 设置：
+
+“936” = ”YaHei Consolas Hybrid”
+```
 
 ## 2. Set Up In Ubuntu/Debian ##
 
